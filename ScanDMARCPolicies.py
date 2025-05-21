@@ -80,7 +80,7 @@ print(f"{bcolors.ENDC}",end="")
 
 print(f"*"*50)
 
-print(f"total scanned: "+str(total)+" of 78 member schools")
+print(f"total scanned: "+str(total))
 print(f" {bcolors.WARNING}none{bcolors.ENDC}: {bcolors.FAIL}" + str(counts["none"]) + f"{bcolors.ENDC} ({bcolors.WARNING}" + str(nonePercent) + f"{bcolors.ENDC}%)")
 print(f" {bcolors.WARNING}quarantine{bcolors.ENDC}: {bcolors.YELLOW}"+ str(counts["quarantine"]) + f"{bcolors.ENDC} ({bcolors.WARNING}" + str(quarantinePercent) + f"{bcolors.ENDC}%)")
 print(f" {bcolors.WARNING}reject{bcolors.ENDC}: {bcolors.OKGREEN}"+ str(counts["reject"]) + f"{bcolors.ENDC} ({bcolors.WARNING}" + str(rejectPercent) + f"{bcolors.ENDC}%)")
